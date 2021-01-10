@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/index.css" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ed4ba6192b.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="logo">Formulario</h1>
+        <div class="contact">
+            <div class="contact-form">
+                <h3>Datos personales</h3>
+                <form>
+                    <p>
+                        <label for="fullname">Nombre completo</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </p>
+                    <p>
+                        <label for="email">Edad</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="phone">Telefono</label>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                    <p>
+                        <label for="asunto">E-mail</label>
+                        <input type="tel" name="affair" id="asunto">
+                    </p>
+                    <p>
+                        <label for="nacionalidad">Nacionalidad</label>
+                        <input type="text" name="pais" id="nacionalidad">
+                    </p>
+                </form>
+                <h3>Datos laborales</h3>
+                <form>
+                    <p>
+                        <label for="educacion">Educacion</label>
+                        <select id="educacion">
+                            <option value="#">Secundario completo</option>
+                            <option value="#">Universitario en curso</option>
+                            <option value="#">Universitario incompleto</option>
+                            <option value="#">Universitario completo</option>
+                            <option value="#">Posgrado</option>
+                            <option value="#">Terciario</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="titulo">Nombre del titulo</label>
+                        <input type="text" id="titulo">
+                    </p>
+                    <p class="block">
+                        <label for="experiencias">Experiencias laborales</label>
+                        <textarea name="experiencias" id="experiencias"></textarea>
+                    </p>
+                </form>
+                <h3>Expectativas</h3>
+                <form>
+                    <p class="block">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="message" id="mensaje"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
